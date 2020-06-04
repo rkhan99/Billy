@@ -28,10 +28,13 @@ nav{
   /* margin-top: 30px; */
   font-family: 'Fredoka One',cursive;
 }
-.b-logo{
+nav>a{
+  margin: 10px 0 0 70px !important;
+}
+/* .b-logo{
   margin-top: 25px;
   margin-left: 70px;
-}
+} */
 label.logo{
   /* color: #f2f2f2; */
   font-size: 33px;
@@ -99,6 +102,7 @@ nav ul li a:hover{
     display: block;
     margin-right: 40px;
     margin-left: 30px;
+    margin-top: 10px !important;
   }
   ul{
     position: fixed;
@@ -158,6 +162,10 @@ nav ul li a:hover{
 
 
 
+
+
+
+
 @font-face{
     font-family: 'Fredoka One';
     src: url(fonts/FredokaOne-Regular.ttf);
@@ -171,11 +179,15 @@ nav ul li a:hover{
 .color{
     color: #D82011 !important;
 }
+.underline{
+  text-decoration: underline;
+  text-decoration-color: #5c5c5c;
+}
 .color2{
     color: #5c5c5c;
 }
 .size{
-    font-size: 32px !important;
+    font-size: 40px !important;
     line-height: 3rem !important;
 }
 .product{
@@ -193,6 +205,51 @@ nav ul li a:hover{
 
 .bg-img>h1{
   font-size: 100px !important;
+}
+@media (max-width: 450px){
+  .pro{
+    text-align: center !important;
+    font-size: 23px !important;
+  }
+  .f-banner{
+    font-size: 30px !important;
+  }
+  .f-cont{
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+    border: none !important;
+  }
+  .bg-img>h1{
+    font-size: 75px !important;
+    margin: 90px !important;
+  }
+
+}
+@media (max-width: 530px){
+  .bg-img>h1{
+    margin: 90px 0 !important;
+  }
+}
+
+@media (max-width:530px){
+  .page{
+    width: 100% !important;
+  }
+}
+@media (max-width: 575px){
+  section>.container{
+    width: 100% !important;
+    padding: 0 !important;
+  }
+}
+@media (max-width:1230px){
+  .disp-img{
+    display: none !important;
+  }
+  .middle{
+    display: flex;
+    justify-content: center;
+  }
 }
 
 

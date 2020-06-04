@@ -67,12 +67,8 @@ nav{
   /* margin-top: 30px; */
   font-family: 'Fredoka One',cursive;
 }
-.b-logo{
-  /* margin-top: 25px;
-  margin-left: 70px; */
-}
 nav>a{
-  margin: 25px 0 0 70px !important;
+  margin: 10px 0 0 70px !important;
 }
 label.logo{
   /* color: #f2f2f2; */
@@ -146,6 +142,7 @@ nav ul li a:hover{
     display: block;
     margin-right: 40px;
     margin-left: 30px;
+    margin-top: 10px !important;
   }
   ul{
     position: fixed;
@@ -240,6 +237,10 @@ nav ul li a:hover{
     height: 45px;
   }
 }
+.underline{
+  text-decoration: underline;
+  text-decoration-color: #5c5c5c;
+}
 
 
 
@@ -267,6 +268,11 @@ nav ul li a:hover{
   .disp-img{
     display: none !important;
   }
+  .aligning{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
 }
 @media (max-width: 1049px){
   .p1{
@@ -282,6 +288,16 @@ nav ul li a:hover{
   }
   .d a{
     font-size: 12px !important;
+  }
+}
+@media (max-width: 450px){
+  .f-banner{
+    font-size: 30px !important;
+  }
+  .f-cont{
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+    border: none !important;
   }
 }
 
